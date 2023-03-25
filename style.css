@@ -1,0 +1,172 @@
+.body-custom{
+    background-color:rgb(236, 236, 236);
+}
+
+.logo-navbar{
+    height: 70px;
+    width: 100px;
+}
+.ul-custom{
+    list-style: none;
+}
+
+li>a{
+    color: rgb(80, 74, 74);
+    text-decoration: none;
+}
+
+.image-sfondo{
+    background-image: url("/media/Montagna\ rossa.jpg");
+    background-size: cover;
+    height: 200px;
+}
+
+.img-custom{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    
+}
+.icon-custom{
+    color:  rgb(139, 1, 2);
+}
+
+@media screen and (max-width : 400px){
+    .img-custom{
+        height: 290px;
+        width: 390px;
+        margin: 0%;
+        
+    }
+    .image-sfondo{
+    height: 400px;
+    width: 380px;
+    }
+   
+}
+
+
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 30px;
+}
+
+.bt-sfondo{
+    background-image: url("./media/alberi.png");
+    height: 480px;
+    padding-bottom: 0px;
+}
+.btn-height{
+    height: 50px;
+}
+
+.alberi-sfondo{
+    background-image: url("./media/single.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/* TIMELINE */
+
+.puntino::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    
+}
+
+/* TIMELINE ORIZZONTALE */
+
+.pallino1::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 159px;
+    top: -7px;
+}
+.pallino2::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    top: -7px;
+}
+.pallino3::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    top: -7px;
+}
+.pallino4::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    top: -7px;
+}
+
+.img-tonda-dx{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50% ;
+    border: solid rgb(112, 12, 12);
+    
+    
+}
+
+.footer-custom{
+    min-height: 100px;
+    background-color: rgb(139, 1, 2);
+
+}
+
+.link-custom{
+    text-decoration: none;
+}
+
+.img-sfondo{
+    height: 400px;
+    background-image: url(./media/other.png);
+}
+
+h3{
+    text-align: center;
+}
+
+.img-foto{
+    height: 200px;
+    width: 200px;
+    border-radius: 50% ;
+    border: solid rgb(112, 12, 12);
+}
+
+.text-custom{
+    color: rgb(112, 12, 12);
+}
